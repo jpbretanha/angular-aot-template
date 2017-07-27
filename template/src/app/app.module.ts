@@ -10,7 +10,7 @@ export { AppComponent };
     AppComponent
   ],
   imports: [
-    BrowserModule.withServerTransition({ appId: 'seednews' }),
+    BrowserModule.withServerTransition({ appId: 'template' }),
     RouterModule.forRoot([
       { path: 'home', loadChildren: './home/home.module#HomeModule' },
       { path: '**', redirectTo: '', pathMatch: 'full' },
